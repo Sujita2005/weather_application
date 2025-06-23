@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cnt{
+    height:80vh;
+    width:50vw;
+    background-image: url("https://media.tenor.com/ZAw_hz_GBBsAAAAd/rain.gif");
+    background-size:cover;
+    margin:10vh auto;
+    border-radius:5px;
+    box-shadow:0 0 5px rgb(104, 101, 101);
+    padding:20px;
+}
+.search{
+    height:30px;
+    width:400px;
+    padding:5px;
+    margin-left:170px;
+    border-radius:5px;
+}
+.right img{
+    height:5rem;
+    width:5rem;
+    border-radius:50%;
+     position: absolute;
+    left:930px;
+    bottom:460px;
+
+}
+.box{
+    height:45vh;
+    width:100%;
+    /* background-color:black; */
+    margin-top:5px;
+    border-radius:10px;
+     box-shadow:0 0 5px rgb(104, 101, 101);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.left2{
+    height:inherit;
+    width:50%;
+    /* background-color:pink; */
+}
+.t1{
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.right2{
+    height:inherit;
+    width:50%;
+    /* background-color:pink; */
+}
